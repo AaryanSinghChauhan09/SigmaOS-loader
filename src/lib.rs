@@ -4,4 +4,8 @@
 pub mod loader;
 pub mod launch_ready;
 
-pub use loader::Loader;
+pub use loader::*;
+pub use launch_ready::*;
+
+#[derive(Debug, Default, Clone)]
+pub struct Loader;
